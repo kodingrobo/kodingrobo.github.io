@@ -1,0 +1,198 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Experience · Angela Ding</title>
+  <meta name="description" content="Angela Ding's experience: Google Search Infrastructure, Capital One, and CME Group. Skills, certifications, and education.">
+  <meta property="og:title" content="Experience · Angela Ding">
+  <meta property="og:description" content="Software and data engineering at Google, Capital One, and CME Group.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/headshot.jpg">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;1,9..144,300&family=Inter:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="wordmark" href="index.html">Angela Ding</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <p class="eyebrow">Experience · 2016–2026</p>
+        <h1>10 years of data and software engineering experience</h1>
+        <p class="lede">From real-time market data at CME Group, to a cloud data platform at Capital One, to the infrastructure behind Google Search.</p>
+        <div class="actions">
+          <a class="btn btn-primary" href="assets/Resume_Angela_Ding_2026.pdf" download>
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14"/></svg>
+            Download résumé (PDF)
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="wrap"><hr class="rule"></div>
+
+    <section class="section" aria-labelledby="work-heading">
+      <div class="wrap">
+        <h2 id="work-heading" class="visually-hidden">Work history</h2>
+        <ol class="timeline">
+          <li class="tl-item reveal">
+            <span class="tl-date">Jun 2021 – Sep 2026</span>
+            <div class="tl-body">
+              <h3>Software Engineer, Search Infrastructure</h3>
+              <p class="tl-org">Google</p>
+              <ul>
+                <li>Reduced Search latency by 0.055ms in the mobile and global slices of traffic by introducing a new feature for Search's UI authoring language for toggling between experiments.</li>
+                <li>Redesigned an API for a new class of tile UI components used in popular queries like "Things to do" in the "Top sights in…" section.</li>
+                <li>Improved developer productivity by adding Hot Module Replacement to the React-like UI authoring language used by all Search developers, and an auto edit-refresh feature for the local development server used by AI Mode developers. Both features had 50–100 daily users and received positive feedback.</li>
+              </ul>
+              <ul class="tags" aria-label="Tools">
+                <li>Java</li><li>Kotlin</li><li>React</li><li>JavaScript</li><li>Python</li><li>Bazel</li><li>SQL</li><li>Protobuf</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-date">Jul 2019 – May 2021</span>
+            <div class="tl-body">
+              <h3>Data Engineer, Commercial Banking</h3>
+              <p class="tl-org">Capital One</p>
+              <ul>
+                <li>Developer on a horizontal platform to support more than 10,000 business-critical metrics jobs daily, where data engineers perform Hive, Spark, and Flink ETL on datasets in the data lake.</li>
+                <li>Enabled secure team-based access on every Commercial Banking EMR cluster, leveraging AWS KMS and an internal token provider to secure data transport between clusters and the data lake.</li>
+              </ul>
+              <ul class="tags" aria-label="Tools">
+                <li>Java</li><li>Python</li><li>SQL</li><li>Flink</li><li>Hive</li><li>Kafka</li><li>Spring</li><li>Hadoop</li><li>EMR</li><li>S3</li><li>CloudFormation</li><li>ECS</li><li>Lambda</li><li>SQS</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-date">Jul 2017 – May 2019</span>
+            <div class="tl-body">
+              <h3>Data Engineer, Market Data</h3>
+              <p class="tl-org">CME Group</p>
+              <ul>
+                <li>Migrated to AWS the market data pipeline feeding a data lake, cmegroup.com, and <a href="https://www.cmegroup.com/datamine.html">CME DataMine</a>, resulting in the decommission of the company's 100-node on-premise Hadoop cluster.</li>
+                <li>Developed and supported a real-time streaming Flink application loading ~500 million market data messages daily from CME's trade matching engine to the data lake, market data pipeline, and multiple internal consumers.</li>
+                <li>Provided 24/7 on-call support for the production AWS market data pipeline.</li>
+              </ul>
+              <ul class="tags" aria-label="Tools">
+                <li>Java</li><li>Flink</li><li>Kafka</li><li>Hadoop</li><li>AWS EMR</li><li>Hive</li><li>S3</li><li>CloudFormation</li><li>Jenkins</li><li>Chef</li><li>Consul</li><li>Automic</li>
+              </ul>
+            </div>
+          </li>
+
+          <li class="tl-item reveal">
+            <span class="tl-date">Jun 2016 – May 2017</span>
+            <div class="tl-body">
+              <h3>Software Engineer Intern</h3>
+              <p class="tl-org">CME Group</p>
+              <ul>
+                <li>Demoed to leadership the benefits of hosting a data lake in AWS by prototyping a Hadoop and Presto pipeline processing market data archives on AWS Elastic MapReduce (EMR).</li>
+                <li>Influenced engineering decisions by demoing the trade-offs of different data partitioning strategies and serialization formats in S3.</li>
+              </ul>
+              <ul class="tags" aria-label="Tools">
+                <li>Java</li><li>Hadoop</li><li>AWS EMR</li><li>S3</li><li>Presto</li><li>Hive</li><li>Drill</li><li>Avro</li><li>Parquet</li><li>ORC</li>
+              </ul>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <div class="wrap"><hr class="rule"></div>
+
+    <section class="section" aria-labelledby="skills-heading">
+      <div class="wrap">
+        <p class="eyebrow">Toolkit</p>
+        <h2 id="skills-heading">Skills</h2>
+        <div class="cards reveal">
+          <div class="card">
+            <h3>Languages</h3>
+            <ul class="tags"><li>Java</li><li>Kotlin</li><li>Python</li><li>JavaScript</li><li>React</li><li>SQL</li><li>Shell scripting</li></ul>
+          </div>
+          <div class="card">
+            <h3>Data &amp; streaming</h3>
+            <ul class="tags"><li>Kafka</li><li>Flink</li><li>Spark</li><li>Hive</li><li>Hadoop</li><li>Snowflake</li></ul>
+          </div>
+          <div class="card">
+            <h3>Cloud</h3>
+            <ul class="tags"><li>AWS EMR</li><li>AWS Lambda</li><li>AWS CloudFormation</li><li>S3</li><li>Docker</li><li>Kubernetes</li></ul>
+          </div>
+          <div class="card">
+            <h3>Build &amp; delivery</h3>
+            <ul class="tags"><li>Git</li><li>Bazel</li><li>Maven</li><li>Jenkins</li><li>Chef</li><li>Automic</li><li>Spring</li></ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding-top:0">
+      <div class="wrap split">
+        <div class="reveal">
+          <p class="eyebrow">Credentials</p>
+          <h2>Certifications</h2>
+          <ul class="cred-list">
+            <li><strong>AWS Certified Developer – Associate</strong><span class="meta">Amazon Web Services</span></li>
+            <li><strong>Databricks Certified Associate Developer for Apache Spark 2.4</strong><span class="meta">Databricks · Python 3 (CRT020)</span></li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <p class="eyebrow">2013–2017</p>
+          <h2>Education</h2>
+          <ul class="cred-list">
+            <li>
+              <strong>University of Illinois Urbana-Champaign</strong>
+              <span class="meta">B.S. in Computer Science, Minor in Statistics</span>
+              <p class="meta" style="margin:8px 0 0">Dean's List · College of Engineering James Scholar · William and Ruth Witt Scholarship</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <div class="cta-band reveal">
+          <h2>Let's talk.</h2>
+          <div class="actions">
+            <a class="btn btn-primary" href="contact.html">Get in touch <span aria-hidden="true">→</span></a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <small>© <span id="year">2026</span> Angela Ding</small>
+      <ul class="social">
+        <li><a href="mailto:angela.ding3@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3.5 6.5 8.5 6.5 8.5-6.5"/></svg></a></li>
+        <li><a href="https://www.linkedin.com/in/angelading1/" aria-label="LinkedIn" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5ZM3 9.75h4v11H3v-11Zm6.5 0h3.8v1.6h.06c.53-.95 1.83-1.95 3.77-1.95 4.03 0 4.77 2.5 4.77 5.75v5.6h-4v-4.97c0-1.18-.02-2.7-1.7-2.7-1.7 0-1.96 1.28-1.96 2.6v5.07h-4v-11Z"/></svg></a></li>
+        <li><a href="https://github.com/kodingrobo" aria-label="GitHub" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2a10 10 0 0 0-3.16 19.49c.5.09.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.45-1.16-1.11-1.47-1.11-1.47-.91-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.9 1.52 2.34 1.08 2.91.83.09-.65.35-1.09.63-1.34-2.22-.25-4.55-1.11-4.55-4.94 0-1.09.39-1.98 1.03-2.68-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.58 9.58 0 0 1 5 0c1.91-1.3 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.68 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .27.18.58.69.48A10 10 0 0 0 12 2Z"/></svg></a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
